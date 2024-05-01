@@ -7,7 +7,7 @@ categories.forEach(category => {
 const categoryName = category.querySelector('h2').textContent
 console.log('Category: ' + categoryName) //wyświetlenie w konsoli tekst tytułu elementu
 
-const categoriesNumber = document.querySelectorAll(" .li")
+const categoriesNumber = category.querySelectorAll("li")
 console.log('Elements: ' + categoriesNumber.length) //wyświetlenie liczby elementów w kategorii
 })
 
